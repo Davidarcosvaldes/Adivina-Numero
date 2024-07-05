@@ -22,3 +22,27 @@ header nav ul li{
     font-weight: bold;
     font-size: 30px;
 }
+
+header nav ul li a{
+    text-decoration: none;
+    color: blue;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover{
+    background-color: #0056b3; /* Color de fondo en estado de hover */
+    color: white;
+}
+
+header nav ul li a:focus {
+    outline: 2px solid #0056b3; /* Resalte el enlace cuando esté enfocado */
+    outline-offset: 2px; /* Desplazamiento del contorno */
+}
+
+.input {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 200px;
+}
