@@ -11,6 +11,7 @@ body{
 header nav {
     display: flex;
     justify-content: flex-end ;
+    background-color: #0056b3;
 }
 
 header nav ul li{
@@ -23,9 +24,22 @@ header nav ul li{
     font-size: 30px;
 }
 
+.logo-container {
+    display: flex;
+    align-items: flex-start;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 30%;
+}
+
 header nav ul li a{
     text-decoration: none;
-    color: blue;
+    color: rgb(70, 70, 72);
     transition: background-color 0.3s, color 0.3s;
 }
 
