@@ -5,5 +5,19 @@ body{
 }
 .container{
     font-size: 30px;
-    
+
+}
+header nav {
+    display: flex;
+    justify-content: flex-end ;
+}
+
+header nav ul li{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    display: inline;
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
 }
